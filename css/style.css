@@ -21,9 +21,9 @@ body {
       width: 800px; } }
 
 @font-face {
-  src: url(//fonts/ostrich-regular.ttf);
+  src: url(./fonts/ostrich-regular.ttf);
   font-family: ostrich; }
 
 @font-face {
-  src: url(//fonts/Ubuntu-Light.ttf);
+  src: url(./fonts/Ubuntu-Light.ttf);
   font-family: ubuntu; }
