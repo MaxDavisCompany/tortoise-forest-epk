@@ -1,0 +1,29 @@
+* {
+  font-family: ubuntu;
+  box-sizing: border-box;
+  overflow-x: hidden; }
+
+body {
+  background-image: linear-gradient(#0C617F, #139BCC, #2BCC83);
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100vh; }
+
+.heads {
+  width: 400px;
+  position: relative;
+  bottom: 200px;
+  left: 50%;
+  transform: translateX(-50%); }
+  @media only screen and (min-width: 800px) {
+    .heads {
+      width: 800px; } }
+
+@font-face {
+  src: url(/fonts/ostrich-regular.ttf);
+  font-family: ostrich; }
+
+@font-face {
+  src: url(//fonts/Ubuntu-Light.ttf);
+  font-family: ubuntu; }

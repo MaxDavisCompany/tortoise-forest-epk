@@ -1,0 +1,26 @@
+#audio {
+  padding-bottom: 150px;
+  position: relative;
+  bottom: 150px; }
+  @media only screen and (min-width: 800px) {
+    #audio {
+      padding-bottom: 250px; } }
+  #audio h1 {
+    text-align: center;
+    font-size: 3rem; }
+  #audio .audio-grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-items: center; }
+    @media only screen and (min-width: 800px) {
+      #audio .audio-grid {
+        grid-template-columns: repeat(2, 1fr);
+        padding: 0 100px; } }
+    @media (min-width: 1500px) {
+      #audio .audio-grid {
+        padding: 0 300px; } }
+  #audio h1, #audio p {
+    color: #fff; }
+  #audio p {
+    text-align: center;
+    font-size: 1.4rem; }

@@ -1,0 +1,23 @@
+#top-container {
+  overflow-y: hidden; }
+  #top-container img {
+    width: 300px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%); }
+    @media (min-width: 530px) {
+      #top-container img {
+        width: 500px; } }
+  #top-container h1 {
+    position: relative;
+    bottom: 220px;
+    text-align: center;
+    font-family: ostrich;
+    color: #fff;
+    font-size: 4.8rem;
+    font-weight: 300;
+    padding-top: 80px; }
+    @media (min-width: 530px) {
+      #top-container h1 {
+        font-size: 6.8rem;
+        padding-top: 0; } }

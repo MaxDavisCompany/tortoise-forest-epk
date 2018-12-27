@@ -1,0 +1,32 @@
+#basic-info {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  justify-items: center;
+  padding: 0 50px;
+  text-align: center;
+  position: relative;
+  bottom: 175px; }
+  @media only screen and (min-width: 800px) {
+    #basic-info {
+      grid-template-columns: repeat(2, 1fr); } }
+  @media (min-width: 1500px) {
+    #basic-info {
+      padding: 0 300px; } }
+  #basic-info h1 {
+    color: #fff;
+    font-size: 3rem; }
+  #basic-info h4 {
+    font-size: 3rem;
+    color: #fff;
+    font-weight: 300; }
+  #basic-info .members h5 {
+    position: relative;
+    bottom: 30px; }
+  #basic-info h5 {
+    font-size: 1.4rem;
+    color: #fff;
+    font-weight: 100; }
+  #basic-info .info h5 {
+    font-size: 1.4rem; }
+  #basic-info h5 a {
+    color: #fff; }

@@ -1,0 +1,25 @@
+#footer {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+  position: relative;
+  padding-bottom: 50px; }
+  #footer img {
+    width: 300px; }
+  #footer .icons {
+    overflow-y: hidden;
+    text-align: center;
+    font-size: 1.7rem;
+    position: relative;
+    /* padding: 20% 5%; */
+    display: block;
+    grid-gap: 10px;
+    top: 0; }
+    #footer .icons i {
+      padding: 0 20px;
+      transition: all .2s ease-in-out;
+      color: #fff;
+      overflow: hidden; }
+    #footer .icons i:hover {
+      cursor: pointer;
+      color: rgba(255, 255, 255, 0.4); }

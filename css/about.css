@@ -1,0 +1,27 @@
+#about {
+  font-family: ubuntu;
+  font-weight: 100;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 0;
+  position: relative;
+  bottom: 200px;
+  padding-bottom: 0; }
+  @media (min-width: 530px) {
+    #about {
+      padding-bottom: 50px; } }
+  #about h1 {
+    font-size: 3rem;
+    font-weight: 300; }
+  #about p {
+    font-size: 1.4rem;
+    padding: 0 20px;
+    position: relative;
+    bottom: 25px;
+    font-weight: 100;
+    line-height: 2rem; }
+    @media (min-width: 1500px) {
+      #about p {
+        padding: 0 350px;
+        font-size: 2rem;
+        line-height: 2.4rem; } }
